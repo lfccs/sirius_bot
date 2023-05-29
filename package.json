@@ -1,0 +1,36 @@
+{
+  "name": "aya-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfccs/aya-v2.git"
+  },
+  "author": "felcs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lfccs/aya-v2/issues"
+  },
+  "homepage": "https://github.com/lfccs/aya-v2#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "axios": "^0.26.1",
+    "canvas": "^2.10.2",
+    "discord-api-types": "^0.30.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "map-folder": "^1.2.7",
+    "mongoose": "^6.3.0",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "nodemon": "^2.0.15"
+  }
+}
